@@ -12,12 +12,19 @@ win32 {
 QTDIR_BIN = $$system(qmake -query QT_INSTALL_BINS)
 message($$QTDIR)
 INSTALLS    += qtlibraries
-qtlibraries.path  = /
+qtlibraries.path  =  $$[INSTALL_ROOT]/icRadnomizer/
 qtlibraries.files = \
-    $$QTDIR_BIN/QtCored4.dll \
-    $$QTDIR_BIN/QtGuid4.dll \
     $$QTDIR_BIN/mingwm10.dll \
     $$QTDIR_BIN/libgcc_s_dw2-1.dll
+  release {
+    qtlibraries.files += \    
+      $$QTDIR_BIN/QtCore4.dll \
+      $$QTDIR_BIN/QtGui4.dll \
+  } else {
+      qtlibraries.files += \    
+      $$QTDIR_BIN/QtCored4.dll \
+      $$QTDIR_BIN/QtGuid4.dll \
+  }
 } 
 
 INSTALLS    += docs
