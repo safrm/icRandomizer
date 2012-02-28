@@ -1,0 +1,31 @@
+name: icRandomizer
+author:  Miroslav Safr <miroslav.safr@gmail.com>
+web: https://github.com/safrm/icRandomizer
+description: Image countdown randomizer
+QT based program which which I wrote for our Friday wine lottery :)
+It loads directory with people/numbers pictures and than randomly changes pictures and randomly (from 10 - 20 hits * 500ms =  5 - 10s)
+it stops and shows the winner picture with name.
+
+installation:
+1. unpack: tar xvjf icRadnomizer.tar.bz2
+2. run ./icRadnomizer/icRandomizer
+or
+1. get sources: git clone https://github.com/safrm/icRandomizer
+2. qmake &&  make INSTALL_ROOT=<my-location> install
+3. <my-location>/icRadnomizer/icRandomizer
+
+own usage:
+1. overwrite ./logo.png - in main folder or click the logo picture to select some other logo picture
+2. copy your images to ./images/ directory or select own directory by pressing button with folder path
+3. start the simulation
+
+example trow dices:
+1. click logopicture and select logo-dices.png
+2. select dir images-dices by pressing button with directory path
+3. start to play
+
+example mood selector:
+1. click logopicture and select logo-.png
+2. select dir images-dices by pressing button with directory path
+3. start to play
+

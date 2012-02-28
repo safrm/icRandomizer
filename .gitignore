@@ -1,0 +1,8 @@
+Makefile*
+debug/*
+*.user
+icRandomizer
+*.o
+images_/
+moc_*.cpp
+qrc_*.cpp
