@@ -1,6 +1,6 @@
 name: icRandomizer
 author:  Miroslav Safr <miroslav.safr@gmail.com>
-web: https://github.com/safrm/icRandomizer
+web: http://safrm.net/projects/icRandomizer
 description: Image countdown randomizer
 QT based program which which I wrote for our Friday wine lottery :)
 It loads directory with people/numbers pictures and than randomly changes pictures and randomly (from 10 - 20 hits * 500ms =  5 - 10s)
@@ -10,7 +10,7 @@ installation:
 1. unpack: tar xvjf icRadnomizer.tar.bz2
 2. run ./icRadnomizer/icRandomizer
 or
-1. get sources: git clone https://github.com/safrm/icRandomizer
+1. get sources: git clone http://safrm.net/projects/icRandomizer
 2. qmake &&  make INSTALL_ROOT=<my-location> install
 3. <my-location>/icRadnomizer/icRandomizer
 
